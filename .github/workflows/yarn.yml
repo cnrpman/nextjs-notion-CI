@@ -26,6 +26,6 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Build
         run: |
-          next build
-          next export
+          yarn run build
+          yarn run export
           ls out/
